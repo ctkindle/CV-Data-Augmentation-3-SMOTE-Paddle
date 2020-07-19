@@ -212,7 +212,7 @@ plt.imshow(img)
 
 
 
-![png](output_10_2.png)
+![png](https://raw.githubusercontent.com/ctkindle/CV-Data-Augmentation-3-SMOTE/master/pics/output_10_2.png)
 
 
 通过打印执行SMOTE后的训练集分类标签，我们发现：类别0生成了162张图片，类别2生成了112张图片，和原来的图片加载一起，每个类别都是192张图片，三个类别的图片一样多了。训练数据分配不平衡的问题得以解决。用Imblearn库生成新样本需要**注意**一个细节：图片数据是（w，h，c）格式的，算上图片数量是（n，w，h，c）格式。在输入Imblearn库的处理函数前要将其转换为1维数组，处理完成再转换回（n，w，h，c）格式。
@@ -274,7 +274,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+![png](https://raw.githubusercontent.com/ctkindle/CV-Data-Augmentation-3-SMOTE/master/pics/output_14_0.png)
 
 
 
@@ -306,7 +306,7 @@ plt.show()
 ```
 
 
-![png](output_15_0.png)
+![png](https://raw.githubusercontent.com/ctkindle/CV-Data-Augmentation-3-SMOTE/master/pics/output_15_0.png)
 
 
 ![](https://ai-studio-static-online.cdn.bcebos.com/39c57c91dce346cb97206868f2d2539ca5b028bf2b37467eae8545d0db691828)
