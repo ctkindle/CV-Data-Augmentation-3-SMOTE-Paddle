@@ -127,7 +127,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](https://raw.githubusercontent.com/ctkindle/CV-Data-Augmentation-3-SMOTE/master/pics/output_6_0.png)
 
 
 # 四、用图片分类任务测试SMOTE效果
