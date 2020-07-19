@@ -101,7 +101,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/ctkindle/CV-Data-Augmentation-3-SMOTE/tree/master/pics/output_4_0.png)
+![png](https://raw.githubusercontent.com/ctkindle/CV-Data-Augmentation-3-SMOTE/master/pics/output_4_0.png)
 
 
 【使用Imblearn库后数据分布】
